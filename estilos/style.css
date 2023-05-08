@@ -33,6 +33,8 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
